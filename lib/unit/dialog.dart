@@ -27,7 +27,7 @@ class My_dialog extends StatelessWidget {
           children: [
             TextField(
               decoration: InputDecoration(
-                  border: OutlineInputBorder(), hintText: "add a new"),
+                  border: OutlineInputBorder(), hintText: "add a new task"),
               controller: controler,
             ),
             Row(
